@@ -1,0 +1,72 @@
+# JUCE .gitignore
+
+# Build directories
+Builds/
+build/
+cmake-build-*/
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+*.userosscache
+*.sln.docview
+.vs/
+.vscode/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# Xcode
+*.xcuserdata/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Visual Studio
+*.VC.db
+*.VC.opendb
+ipch/
+*.opensdf
+*.sdf
+*.cachefile
+*.aps
+
+# Linux / Makefile
+*.o
+*.a
+*.so
+*.d
+
+# JUCE auto-generated files
+JuceLibraryCode/
+# (keep your .jucer file, but ignore generated code)
+
+# Plugin formats (compiled)
+*.vst
+*.vst3
+*.component
+*.aaxplugin
+*.appex
+*.app
+
+# macOS bundles
+*.dSYM/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Projucer backup files
+*.jucer.bak
